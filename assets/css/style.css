@@ -80,10 +80,31 @@ h2 {
     font-size: 280%;
 }
 
-ul {
-    float: right;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
-section {
-    display: block;
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
