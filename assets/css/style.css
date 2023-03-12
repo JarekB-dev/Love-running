@@ -61,4 +61,29 @@ h6 {
 body {
     font-family: var(--ff-main);
     font-weight: var(--fw-n);
+    color: #3a3a3a
+}
+
+/* Headings and logo */
+
+h1,
+h2 {
+    text-decoration: none;
+    font-family: var(--ff-secondary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+ul {
+    float: right;
+}
+
+section {
+    display: block;
 }
