@@ -262,3 +262,21 @@ hr {
 }
 
 /* footer */
+footer {
+    height: 150px;
+}
+
+.footer-socials {
+    text-align: center;
+}
+
+.footer-socials>li {
+    display: inline;
+}
+
+.footer-socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
